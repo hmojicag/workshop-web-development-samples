@@ -1,0 +1,8 @@
+@page
+@model HelloModel
+
+<ul>
+@foreach (var puesto in Model.Puestos) {
+    <li>@puesto.Puesto - @puesto.Nombre</li>
+}
+</ul>
